@@ -11,6 +11,7 @@ public class AopMethodsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AopMethodsApplication.class, args);
 		ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(beanConfig.class);
-	}
+// add comment	
+}
 
 }
